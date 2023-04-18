@@ -1,0 +1,11 @@
+framework module QosiMetrics {
+  umbrella header "QosiMetrics.h"
+
+  export *
+  module * { export * }
+}
+
+module QosiMetrics.Swift {
+  header "QosiMetrics-Swift.h"
+  requires objc
+}
